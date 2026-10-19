@@ -1,5 +1,7 @@
 # ClipPeekQueueMini
 
+**🌐 Website:** [turhe123.github.io/clip-peek-queue-mini](https://turhe123.github.io/clip-peek-queue-mini/)
+
 Preview what is on your clipboard in a tiny floating tip before you paste, with formats and size shown.
 
 ![macOS 14+](https://img.shields.io/badge/macOS-14%2B-blue)
@@ -27,7 +29,13 @@ ClipPeekQueueMini is a free, open-source, 100% native, backend-free alternative 
 
 ## Screenshots
 
-_Screenshots coming soon._
+<p align="center"><img src="docs/screenshots/01-menu.png" alt="ClipPeekQueueMini menu bar menu showing clipboard summary and actions" width="720"></p>
+
+<p align="center"><em>The menu bar menu shows a live summary of what is on the clipboard and its formats, plus Inspect Clipboard, Paste as Plain Text and Undo Last Reduction with their hotkeys.</em></p>
+
+<p align="center"><img src="docs/screenshots/02-settings.png" alt="ClipPeekQueueMini Settings window" width="560"></p>
+
+<p align="center"><em>In Settings you can record both hotkeys, set how long the tip stays up, turn on automatic plain-text reduction with per-app exclusions, and enable launch at login.</em></p>
 
 ## Install
 

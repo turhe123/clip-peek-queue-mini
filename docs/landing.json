@@ -1,0 +1,60 @@
+{
+  "seo_title": "Clipboard inspector for macOS",
+  "seo_description": "See exactly what is on your Mac clipboard before you paste. Free, open-source menu bar app with one-key plain text, file path and PNG reductions.",
+  "hero_title_line1": "Know what you paste.",
+  "hero_title_accent": "Before you paste it.",
+  "hero_sub": "ClipPeekQueueMini shows a small floating tip with a preview, size and every format on your clipboard. Press Control Option V, then strip it to plain text with one key.",
+  "features_title": "A clipboard you can see.",
+  "features_sub": "A small inspector that shows the pasteboard as it is and reduces it to the one format you need.",
+  "features": [
+    {
+      "icon": "eye",
+      "title": "Floating tip near the pointer",
+      "desc": "Press Control Option V to see a text, image or file preview. The tip does not steal focus and hides after 2 to 20 seconds, which you set in Settings."
+    },
+    {
+      "icon": "clipboard",
+      "title": "Every format, with sizes",
+      "desc": "See character count, pixel dimensions, file count and total bytes. A list of the types present shows friendly names and byte sizes."
+    },
+    {
+      "icon": "keyboard",
+      "title": "One-key reductions",
+      "desc": "Press P for plain text, F for the first file path, I for a PNG image, or T for a trimmed single line. Both hotkeys can be re-recorded."
+    },
+    {
+      "icon": "text",
+      "title": "Paste as Plain Text hotkey",
+      "desc": "Control Option Shift V reduces the clipboard and sends Command V to the frontmost app in one step."
+    },
+    {
+      "icon": "clock",
+      "title": "Undo the last five reductions",
+      "desc": "Original clipboard contents are kept for your last five reductions. Restore any of them from the tip with U or from the menu."
+    },
+    {
+      "icon": "shield",
+      "title": "Optional automatic plain text",
+      "desc": "Turn on auto-reduce to strip rich text from every copy. It skips concealed content such as password manager entries and can be disabled per app."
+    }
+  ],
+  "permissions_step": "Optionally grant Accessibility in System Settings > Privacy & Security > Accessibility so the Paste as Plain Text hotkey can send Command V; everything else works without it.",
+  "faq": [
+    {
+      "q": "Is ClipPeekQueueMini really free and open source?",
+      "a": "Yes. It is released under the MIT license, with no ads, accounts or paid tier. If it is useful to you, there is an optional Support button that links to Ko-fi."
+    },
+    {
+      "q": "What permissions does it need?",
+      "a": "Accessibility is optional and is only used to send Command V for the Paste as Plain Text hotkey. It is requested the first time you use paste, after an explanation. Without it, the clipboard is still reduced and you press Command V yourself."
+    },
+    {
+      "q": "Where is my data stored?",
+      "a": "Nothing leaves your Mac. The app has no backend and does not request network access. Your settings are stored locally, and the undo history of the last five reductions is held in memory only."
+    },
+    {
+      "q": "Why is the app not notarized?",
+      "a": "Notarization requires a paid Apple Developer account, which this free project does not have. Right-click the app and choose Open once to run it, or build it yourself from source with the included instructions."
+    }
+  ]
+}

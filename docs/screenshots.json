@@ -1,0 +1,4 @@
+[
+  {"file":"01-menu.png","caption":"The menu bar menu shows a live summary of what is on the clipboard and its formats, plus Inspect Clipboard, Paste as Plain Text and Undo Last Reduction with their hotkeys.","alt":"ClipPeekQueueMini menu bar menu showing clipboard summary and actions"},
+  {"file":"02-settings.png","caption":"In Settings you can record both hotkeys, set how long the tip stays up, turn on automatic plain-text reduction with per-app exclusions, and enable launch at login.","alt":"ClipPeekQueueMini Settings window"}
+]
